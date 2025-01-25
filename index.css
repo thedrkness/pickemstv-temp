@@ -1,0 +1,24 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  font-family: "Comic Sans MS";
+}
+
+.coming-soon {
+  background: black;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.coming-soon img {
+  width: 300px;
+  height: fit-content;
+}
